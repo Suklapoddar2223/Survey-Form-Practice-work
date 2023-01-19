@@ -13,7 +13,131 @@
 </head>
 <body>
     <header>
-        
+        <!--form container-->
+        <div class="container">
+            <h1 class="main-heading">Survey Form</h1>
+            <hr>
+        </div>
+
     </header>
+    <main>
+
+        <!--form start-->
+        <form class="form-class">
+             <!--Name-->
+             <div class="form-control">
+                <div class="headind-field">
+                    <h3 class="field-head">Customer Name</h3>
+                </div>
+            
+             <div class="field-inputs">
+                <div class="input-div">
+                    <input type="text" class="form-control-input" id="first-name" name="first name" required>
+                    <div id="first-name-help" class="help-text">Enter Your First Name</div>
+                </div>
+                <div class="field-inputs">
+                    <div class="input-div">
+                        <input type="text" class="form-control-input" id="last-name" name="last name" required>
+                        <div id="last-name-help" class="help-text">Enter Your Last Name</div>
+                    </div>
+
+             </div>
+            </div>
+
+            <!-- Name ends here -->
+
+            <!-- Address starts here -->
+
+            <div class="form-control">
+                <div class="heading-field">
+                    <h3 class="field-head">Address</h3>
+                </div>
+                
+                    <div class="input-div">
+                        <input type="text" class="form-control-input" id="street-address" name="street" required>
+                        <div id="street-address-help" class="help-text">Street Address</div>
+                    </div>
+                    <div class="input-div">
+                        <input type="text" class="form-control-input" id="street-address-2" name="street" required>
+                        <div id="street-address-2help" class="help-text">Street Address Line 2</div>
+                    </div>
+                    <div class="input-div">
+                        <input type="text" class="form-control-input" id="city-name" name="city-name" required>
+                        <div id="city-help" class="help-text">City</div>
+
+                        <div class="input-div">
+                            <input type="text" class="form-control-input" id="state-name" name="state-name" required>
+                            <div id="state-name-help" class="help-text">State</div>
+                        </div>
+                        <div class="input-div">
+                            <input type="text" class="form-control-input" id="zip-code" name="zip-code" required>
+                            <div id="zip-code-help" class="help-text">Zip</div>
+
+                            <div class="input-div">
+                                <select type="text" class="form-control-input" name="country" required>
+                                
+                                <option value="India">India</option>
+                                <option value="Netherlands">Netherlands</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Denmark">Denmark</option>
+                            </select>
+                                <div id="country-help" class="help-text">Select Country</div>
+                              
+                            </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- Adrees ends here -->
+
+                            <!-- contact details starts here-->
+
+                            <div class="form-control">
+                                <div class="heading-field">
+                                    <h3 class="field-head">Contact</h3>
+
+                           </div>
+                           <div class="field-input">
+                           <div class="input-div">
+                            <input type="text" class="form-control-input" id="phone" name="phone" required>
+                            <div id="phone-help" class="help-text">Phone</div>
+
+                            <div class="input-div">
+                                <input type="text" class="form-control-input" id="email" name="email" required>
+                                <div id="email-help" class="help-text">E-mail</div>
+    
+                           <!-- contact details ends here -->
+
+                           <!-- personal details starts here -->
+
+                           <div class="form-control">
+                            <div class="heading-field">
+                                <h3 class="field-head">Personal Information</h3>
+                                </div>
+                            
+                            <div class="field-input">
+                                <div class="input-div">
+                                    <input type="radio" id="male" name="gender" value="male">
+                                    <label for="male">Male</label><br>
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <label for="female">Female</label><br>
+
+                                </div>
+                            </div>
+
+
+                           <!-- personal details ends here
+ -->
+
+
+
+                        </div>
+                    </div>
+            </div>
+
+
+
+        </form>
+
+    </main>
 </body>
 </html>
