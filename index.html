@@ -57,6 +57,7 @@
                         <input type="text" class="form-control-input" id="street-address" name="street" required>
                         <div id="street-address-help" class="help-text">Street Address</div>
                     </div>
+                    
                     <div class="input-div">
                         <input type="text" class="form-control-input" id="street-address-2" name="street" required>
                         <div id="street-address-2help" class="help-text">Street Address Line 2</div>
@@ -71,7 +72,7 @@
                         </div>
                         <div class="input-div">
                             <input type="text" class="form-control-input" id="zip-code" name="zip-code" required>
-                            <div id="zip-code-help" class="help-text">Zip</div>
+                            <div id="zip-code-help" class="help-text">Zip</div><br>
 
                             <div class="input-div">
                                 <select type="text" class="form-control-input" name="country" required>
@@ -96,14 +97,16 @@
                                     <h3 class="field-head">Contact</h3>
 
                            </div>
-                           <div class="field-input">
+                           <div class="field-inputs">
                            <div class="input-div">
-                            <input type="text" class="form-control-input" id="phone" name="phone" required>
-                            <div id="phone-help" class="help-text">Phone</div>
+                            <input type="tel" class="form-control-input" id="first-name" name="contact" required>
+                            <div id="tel-name-help" class="help-text">Phone</div>
+                            </div>
 
                             <div class="input-div">
-                                <input type="text" class="form-control-input" id="email" name="email" required>
-                                <div id="email-help" class="help-text">E-mail</div>
+                                <input type="email" class="form-control-input" id="email" name="email" required>
+                                <div id="last-name-help" class="help-text">E-mail</div>
+                                </div>
     
                            <!-- contact details ends here -->
 
@@ -120,24 +123,76 @@
                                     <label for="male">Male</label><br>
                                     <input type="radio" id="female" name="gender" value="female">
                                     <label for="female">Female</label><br>
+                                    <input type="radio" id="other" name="gender" value="other">
+                                    <label for="other">Other</label><br>
+
 
                                 </div>
                             </div>
 
 
-                           <!-- personal details ends here
- -->
+                           <!-- personal details ends here-->
 
+                           <!-- rating section starts here  -->
 
+                           <div class="form-control">
+                            <div class="headind-field">
+                                <h3 class="field-head">Ratings</h3>
+                            </div>
 
+                            <div class="field-inputs">
+                                <h4>Rating 1:</h4>
+                                <div class="rating">
+                                    <input type="radio" id="bad" name="rating1" value="bad">
+                                    <label for="bad">Bad</label>
+                                </div>
+                                    <div class="rating">
+                                        <input type="radio" id="good" name="rating1" value="good">
+                                        <label for="good">Good</label>
+                                    </div>  
+                                    <div class="rating">
+                                        <input type="radio" id="excellent" name="rating1" value="excellent">
+                                        <label for="excellent">Excellent</label>
+                                    </div>      
+                                
+                                <div class="field-inputs">
+                                    <h4>Rating 2:</h4>
+                                    <div class="rating">
+                                        <input type="radio" id="bad" name="rating1" value="bad">
+                                        <label for="bad">Bad</label>
+                                        </div>
+                                    <div class="rating">
+                                        <input type="radio" id="good" name="rating1" value="good">
+                                        <label for="good">Good</label>
+                                    </div>  
+                                    <div class="rating">
+                                        <input type="radio" id="excellent" name="rating1" value="excellent">
+                                        <label for="excellent">Excellent</label>
+                                    </div>      
+                                    <div class="field-inputs">
+                                        <h4>Rating 3:</h4>
+                                        <div class="rating">
+                                            <input type="radio" id="bad" name="rating1" value="bad">
+                                            <label for="bad">Bad</label>
+                                            </div>
+                                        <div class="rating">
+                                            <input type="radio" id="good" name="rating1" value="good">
+                                            <label for="good">Good</label>
+                                        </div>  
+                                        <div class="rating">
+                                            <input type="radio" id="excellent" name="rating1" value="excellent">
+                                            <label for="excellent">Excellent</label>
+                                        </div>      
+                            </div>
+                                </div>
+                           <!-- rating section ends here -->
+                    
+                         </form>
                         </div>
-                    </div>
-            </div>
-
-
-
-        </form>
 
     </main>
+    <footer>
+        <button class="btn">Submit</button>
+    </footer>
 </body>
 </html>
